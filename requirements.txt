@@ -1,0 +1,6 @@
+-e git+git@github.com:django/django.git@c72448b59725c619f4f9d6e38264484c12c4c3b9#egg=Django-dev
+django-pgjson==0.2.2
+ipdb==0.8
+ipython==2.4.1
+psycopg2==2.6
+pybars3==0.8.0
