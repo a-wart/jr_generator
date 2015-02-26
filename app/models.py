@@ -114,3 +114,6 @@ class Airline(models.Model):
     weight = JsonBField()
     name = JsonBField(default={})
     description = JsonBField(default={})
+    
+    def __unicode__(self):
+        return u'%s [%s]' % (self.name['en'], self.code)
